@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="shortcut icon" href="../images/JEDILOGOICON.png" type="imagex-icon">
+    <title>Enlistarse</title>
+</head>
+<!-- Encabezado -->
+
+<body>
+    <header class="Color2">
+        <!-- Barra de navegación -->
+        <div>
+            <nav class="ContentList">
+                <div>
+                    <a href="../index.html">
+                        <img class="HomeButton" src="../images/SW_BkLOGObk.png" alt="BotonInicio">
+                    </a>
+                </div>
+                <div class="BoxList">
+                    <ul>
+                        <li class="navbar"><a href="../pages/ABOUT_US.html">NOSOTROS</a></li>
+                        <li class="navbar"><a href="../pages/ENEMY.html">OPUESTOS</a></li>
+                        <li class="navbar"><a href="../pages/GROUPS.html">LEGIONES</a></li>
+                        <li class="navbar"><a href="../pages/ENLISTED.html">ENLISTARSE</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Fin barra de navegación -->
+    </header>
+    <main>
+        <section>
+            <!-- CONTENIDO TEXTO + IMG -->
+            <div class="ParrafoPrincipal">
+                <div class="CajaTextoRepublica">
+                    <h1>
+                        ¡LA DECISIÓN CORRECTA!
+                    </h1>
+                    <p>
+                        En la víspera de tu entrada al ejército clon, es importante recordar los valores fundamentales que guían a nuestras tropas: el honor y el sacrificio. Estas son las piedras angulares sobre las que se construye nuestro camino hacia la paz y la justicia en la galaxia.
+                    </p>
+                    <p>
+                        El honor es más que un simple concepto; es la esencia misma de lo que significa servir a la República. Significa comprometerse con la verdad, la integridad y la valentía en todo lo que haces. Es un recordatorio constante de que nuestras acciones deben reflejar los más altos estándares de ética y moralidad, incluso en los momentos más difíciles.
+                    </p>
+                    <p>
+                        El sacrificio, por otro lado, es el acto desinteresado de dar todo por una causa más grande que uno mismo. Significa estar dispuesto a darlo todo, incluso la propia vida, por el bienestar de los demás y la preservación de la libertad y la justicia en la galaxia.
+                    </p>
+                    <p>
+                        Al unirte al ejército clon, estás asumiendo una responsabilidad monumental. Pero también estás entrando en una hermandad de camaradería y deber compartido. Te felicito por tu valentía y tu compromiso con el servicio. Que tu tiempo en las filas de las tropas clon esté lleno de honor, sacrificio y un profundo sentido de propósito. Que la Fuerza te guíe y te proteja en cada paso del camino. ¡Adelante, soldado! La galaxia te necesita más que nunca.
+                    </p>
+                    <h2 class="FormDesign">
+                        COMPLETA CON TUS DATOS EL SIGUIENTE FORMULARIO:
+                    </h2>
+                    <div>
+                        <form action="./procesar.php" method="post" enctype="application/x-www-form-urlencoded">
+                            <label for="name">Nombre</label>
+                            <input type="text" name="" id="name">
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div>
+                                <input type="radio" name="genero" value="Masculino">Masculino
+                                <input type="radio" name="genero" value="Femenino">Femenino
+                                <input type="radio" name="genero" value="Otro">Otro
+                            </div>
+                                <h3>
+                                    Un breve texto explicando el por qué de tu decision.
+                                </h3>
+                                <textarea cols="30" rows="10"></textarea>
+                                <input type="submit" value="Enviar">
+                                <h2>
+                                    Los miedosos no marcan la historia.
+                                </h2>
+                            </form>
+                    </div>
+                </div>
+                <div class="ImagenClon2">
+                    <img src="../images/TROOPER.png" alt="Soldado-Clon-Posando">
+                </div>
+            </div>
+            <!-- FIN CONTENIDO TEXTO + IMG -->
+        </section>
+        <!-- CINCO LEGIONES -->
+        <div>
+            <div>
+                <h1 class="LegSecc">
+                    LEGIONES
+                </h1>
+            </div>
+            <div class="CajasLegion">
+                <div class="CajaLeg">
+                    <a href="../pages/GROUPS.html">
+                        <img class="ImgNumLeg" src="../images/Img/501.png" alt="LogoLegion501">
+                    </a>
+                </div>
+                <div class="CajaLeg">
+                    <img class="ImgNumLeg" src="../images/Img/104.png" alt="LogoLegion104">
+                </div>
+                <div class="CajaLeg">
+                    <img class="ImgNumLeg" src="../images/Img/212.png" alt="LogoLegion212">
+                </div>
+                <div class="CajaLeg">
+                    <img class="ImgNumLeg" src="../images/Img/332.png" alt="LogoLegion332">
+                </div>
+            </div>
+        </div>
+        <!-- FIN CINCO LEGIONES -->
+    </main>
+    <!-- PIE DE PAGINA -->
+    <footer>
+        <div class="redes-sociales">
+            <a href="">
+                <img src="../images/Icon/INSTAGRAMIcon.png" alt="Instagram">
+            </a>
+            <a href="">
+                <img src="../images/Icon/XIcon.png" alt="">
+            </a>
+        </div>
+        <p class="CopyRight">&copy; 2024 <strong>La Republica</strong> todos los derechos reservados
+        <p>
+        <div class="JediLogo-Footer">
+            <a href="../index.html">
+                <img class="Jedi-Right-Logo" src="../images/jediorder-logo.png" alt="Logo-JediOrder">
+            </a>
+        </div>
+    </footer>
+    <!-- FIN PIE DE PAGINA -->
+</body>
+</html>

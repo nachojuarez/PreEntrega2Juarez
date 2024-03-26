@@ -1,0 +1,189 @@
+@media (max-width: 576px): {
+
+}
+
+/* CUERPO */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+/* FIN CUERPO */
+
+
+/* BARRA DE NAVEGACION */
+header {
+    background-color: white;
+    padding: 15px;
+}
+.ContentList{
+    display: flex;
+    justify-content: center;
+    flex: row;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+li.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 2px 15px;
+    display: block;
+}
+li.navbar a:hover {
+    background-color: rgb(238, 238, 238);
+    color: red;
+    border-radius: 15px;
+}
+.Color2 {
+    background-color: rgb(229, 229, 229);
+}
+.HomeButton {
+    width: 30%;
+}
+/* FIN BARRA DE NAVEGACION */
+
+
+/* VIDEO CON LOGOTIPO */
+.ContenedorPrincipal{
+    position: relative;
+}
+.SW-Logo {
+    position: absolute;
+    left: 150px;
+    bottom: 150px;
+    width: 18%;
+}
+.FormacionClon {
+    width: 100%;
+}
+/* FIN VIDEO PRINCIPAL CON LOGOTIPO */
+
+
+/* CONTENIDO TEXTO + IMG */
+.ParrafoPrincipal {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+.CajaTextoRepublica {
+    padding: 16px;
+    margin: 16px;
+    width: 800px;
+    max-width: 800px;
+    margin-top: 80px;
+    font-size: 20px;
+}
+.HeroesRep {
+    color: blue;
+    font-weight: bold;
+    
+}
+.VillanoSep {
+    color: red;
+    font-weight: bold;
+}
+.RepMayus{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 25px;
+}
+.ImagenClon {
+    margin: 50px;
+}
+.ImagenClon img{
+    width: 100%;
+    height: auto;
+}
+.ImagenClon2 {
+    padding-top: 220px;
+}
+.Text1 {
+    text-align: center;
+}
+.Text2 {
+    text-align: center;
+}
+.FIVEoneGROUPS {
+    font-size: 60px;
+}
+.TitleGROUPS {
+    text-align: center;
+}
+.FormDesign {
+    text-align: left;
+}
+.EndLine {
+    text-align: center;
+}
+/* FIN CONTENIDO TEXTO + IMG */
+
+
+/* LEGIONES */
+h3 {
+    color: black;
+}
+.LegSecc {
+    text-align: center;
+}
+.CajasLegion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+.CajaLeg {
+    border-radius: 15px;
+    background-color: rgb(233, 233, 233);
+    margin: 20px;
+}
+.CajaLeg:hover {
+    background-color: rgb(172, 172, 172);
+    cursor: pointer;
+}
+.ImgNumLeg {
+    width: 210px;
+    height: 110px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* FIN LEGIONES */
+
+
+/* PIE DE PAGINA */
+footer {
+    background-color: rgb(20, 20, 20);
+    padding: 20px;
+    text-align: center;
+}
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    padding-right: 0px;   
+}
+.JediLogo-Footer {
+    position: relative;
+}
+.Jedi-Right-Logo {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    width: 80px;
+    height: 80px;
+}
+.CopyRight {
+    color: white;
+}
+/* FIN PIE DE PAGINA */
